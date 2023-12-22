@@ -11,7 +11,7 @@
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
     </head>
     <body class="bg-primary">
-
+<script src="regex.js"></script>
     <?php
 session_start();
 
@@ -31,7 +31,7 @@ if(isset($_POST['email'])&& isset($_POST['password'])){
     if($email==="a@b.com"&& $pass==="1234"){
       $_SESSION['email']=$email;
         echo "You are logged in";
-        header("Location: adminDashboard.html");
+        header("Location: ../admin/index.html");
     }
     else{
         header("Location: login.php");
@@ -39,22 +39,6 @@ if(isset($_POST['email'])&& isset($_POST['password'])){
 }   
     
 ?>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         <div id="layoutAuthentication">
             <div id="layoutAuthentication_content">
                 <main>
@@ -64,7 +48,7 @@ if(isset($_POST['email'])&& isset($_POST['password'])){
                                 <div class="card shadow-lg border-0 rounded-lg mt-5">
                                     <div class="card-header"><h3 class="text-center font-weight-light my-4">Login</h3></div>
                                     <div class="card-body">
-                                        <form>
+                                        <form onsubmit=" return validateForm()" method="post">
                                             <div class="form-floating mb-3">
                                                 <input class="form-control" id="inputEmail" type="email" placeholder="name@example.com" />
                                                 <label for="inputEmail">Email address</label>
@@ -79,7 +63,7 @@ if(isset($_POST['email'])&& isset($_POST['password'])){
                                             </div>
                                             <div class="d-flex align-items-center justify-content-between mt-4 mb-0">
                                                 <a class="small" href="password.html">Forgot Password?</a>
-                                                <a class="btn btn-primary" href="index.html">Login</a>
+                                                <button class="btn btn-primary" type="submit" >Login</button>
                                             </div>
                                         </form>
                                     </div>
