@@ -525,8 +525,45 @@ body {
   #grid {
     grid-template-columns: 1fr;
     grid-auto-rows: 4fr;
+    height: 400%;
 
   }
+  #grid:has(.col1:hover) {
+    grid-template-columns: 1fr;
+    grid-auto-rows: 4fr;
+    height: 400%;
+  }
+  #grid:has(.col2:hover) {
+    grid-template-columns: 1fr;
+    grid-auto-rows: 4fr;
+    height: 400%;
+  }
+  #grid:has(.col3:hover) {
+    grid-template-columns: 1fr;
+    grid-auto-rows: 4fr;
+    height: 400%;
+  }
+  #grid:has(.col4:hover) {
+    grid-template-columns: 1fr;
+    grid-auto-rows: 4fr;
+    height: 400%;
+  }
+  #grid:has(.col5:hover) {
+    grid-template-columns: 1fr;
+    grid-auto-rows: 4fr;
+    height: 400%;
+  }
+  #grid:has(.col6:hover) {
+    grid-template-columns: 1fr;
+    grid-auto-rows: 4fr;
+    height: 400%;
+  }
+  #grid:has(.col7:hover) {
+    grid-template-columns: 1fr;
+    grid-auto-rows: 4fr;
+    height: 400%;
+  }
+  
 }
 
 
