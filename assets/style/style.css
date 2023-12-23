@@ -1,3 +1,6 @@
+html,body {
+  scroll-behavior: smooth;
+ }
 #header {
   transition: all 0.5s;
   z-index: 997;
@@ -565,6 +568,8 @@ body {
   }
   
 }
+
+ 
 
 
   
