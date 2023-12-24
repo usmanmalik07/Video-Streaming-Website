@@ -502,10 +502,17 @@ body {
   }
   
 }
-
+.container-23{
+  display: grid;
+  grid-template-columns: auto ;
+  padding-bottom: 2%;
+  width: 100%;
+}
 /* WATCH MORE */
 .pb-video-container {
   padding-top: 10px;
+  display: grid;
+  grid-template-columns: auto;
 
   font-family: Lato;
 }
