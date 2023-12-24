@@ -507,9 +507,11 @@ body {
   grid-template-columns: auto ;
   padding-bottom: 2%;
   width: 100%;
+  padding-left: 25px;
 }
 /* WATCH MORE */
 .pb-video-container {
+  
   padding-top: 10px;
   display: grid;
   grid-template-columns: auto;
