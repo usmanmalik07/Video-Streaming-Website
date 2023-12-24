@@ -468,13 +468,13 @@ body {
   
 }
 .col5 {
-  background-image:  url(/assets/img/charlotte.jpg);
+  background-image:  url(/assets/img/Spirited\ Away.jpg);
   background-position: center;
   transition: background-image 0.5s ease-in-out;
 }
 
 .col5:hover {
-  background-image: url(/assets/img/charlotte.jpg);
+  background-image: url(/assets/img/Spirited\ Away.jpg);
 }
 .col6 {
   background-image: url(/assets/img/hxh.jpg);
@@ -569,7 +569,128 @@ body {
   
 }
 
+
+.pb-video-container {
+  padding-top: 10px;
+
+  font-family: Lato;
+}
+
+.pb-video {
+  border: 5px ;
+  padding: 5px;
+}
+
+  .pb-video:hover {
+      background: #070707;
+  }
+
+.pb-video-frame {
+  transition: width 2s, height 2s;
+}
+
+  .pb-video-frame:hover {
+      height: 300px;
+  }
+
+.pb-row {
+  margin-bottom: 0px;
+  display: flex;
+}
+.pb-video-thumbnail{
+  height: 80%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.pb-text {
+  display: block;
+  margin: auto;
+  padding-left: 4px;
+  font-size: 15px;
+  color: #fff;
+  font-weight: 400;
+  letter-spacing: 1px;
+  padding-top: 2px;
+  width: 90%;
+  text-decoration: solid;
+  
+
+}
+
+
+
+
+.container-1 {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.form-heading-1 {
+  font-family: "Arial", sans-serif;
+  font-size: 6rem;
+  font-weight: 400;
+  color: #fff;
+  letter-spacing: 0.3rem;
+  margin-bottom: 3rem;
+  transition: all 0.3s;
+}
+
+.contact-form-1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form-input-1 {
+  width: 60rem;
+  height: 5rem;
+  padding: 0.5rem;
+  margin: 1rem 0;
+  background-color: rgba(255, 255, 255, 0.4);
+  border: 0.1rem solid #929292;
+  font-size: 1.7rem;
+  font-weight: 300;
  
+  letter-spacing: 0.1rem;
+  outline: none;
+}
+
+.contact-form-input-1:focus {
+  color: #929292;
+  
+}
+
+.contact-form-input-1::placeholder {
+  color: #111010;
+}
+
+.contact-form-textarea-1 {
+  height: 20rem;
+  resize: none;
+  color: #111111;
+  background-color: #929292;
+  margin-top: 5%;
+  font-size: 1.8rem;
+}
+
+.form-submit-btn-1 {
+  padding-top: 5%;
+  display: block;
+  width: 20rem;
+  height: 5rem;
+  background-color: #929292;
+  border: none;
+  font-size: 1.8rem;
+  color: #0e0d0d;
+  cursor: pointer;
+  align-self: center;
+  margin-top: 5%;
+  font-weight: 300;
+  text-emphasis: bold;
+  
+}
 
 
   
